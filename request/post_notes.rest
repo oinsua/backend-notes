@@ -1,17 +1,17 @@
-POST http://localhost:3001/api/notes 
+POST http://localhost:3002/api/notes 
 Content-Type: application/json
 
 {
-    "content": "Esto es una prueba muy cutre 2",
-    "important": false
+    "content": "Esto es una prueba muy cutre 4",
+    "important": true
 }
 
 ###
 
-POST http://localhost:3001/api/notes 
+POST http://localhost:3002/api/notes 
 Content-Type: application/json
 
 {
-    "content": "Esto es una prueba muy cutre 3",
-    "important": false
+    "content": "Esto es una prueba muy cutre 5",
+    "important": true
 }
